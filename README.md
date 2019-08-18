@@ -49,7 +49,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
   
   6. Build a method `depth_first_search` which returns the node at which the target value is located using the depth first search technique.  Use an array acting as a *stack* to do this.
   
-  7 Next, build a new method `dfs_rec` which runs a depth first search as before but this time, instead of using a stack, make this method recursive.
+  7. Next, build a new method `dfs_rec` which runs a depth first search as before but this time, instead of using a stack, make this method recursive.
   
 </div>
   
