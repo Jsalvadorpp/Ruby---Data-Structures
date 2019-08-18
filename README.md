@@ -36,6 +36,7 @@ ruby projects made for: [The Odin Project](https://www.theodinproject.com/course
 You'll build a simple binary tree data structure from some arbitrary input and also the "crawler" function that will locate data inside of it.
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Build a class `Node`.  It should have a `value` that it stores and also links to its parent and children (if they exist).  Build getters and setters for it (e.g. parent node, child node(s)).
   
   2. Write a method `build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a binary tree full of `Node` objects appropriately placed.  Start by assuming the array you get is sorted.
@@ -62,6 +63,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
   * `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Put together a script that creates a game board and a knight.
 
 2. Treat all possible moves the knight could make as children in a tree.  Don't allow any moves to go off the board.
